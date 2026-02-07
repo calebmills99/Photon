@@ -1,0 +1,90 @@
+{
+  "Photon Plugin Template": {
+    "prefix": "photon-plugin",
+    "body": [
+      "#!/usr/bin/env python3",
+      "# -*- coding: utf-8 -*-",
+      "\"\"\"${1:Plugin description}.\"\"\"",
+      "",
+      "def ${2:plugin_name}(${3:args}):",
+      "    \"\"\"",
+      "    ${4:Function description}",
+      "    ",
+      "    Args:",
+      "        ${3:args}: ${5:Description of arguments}",
+      "    ",
+      "    Returns:",
+      "        ${6:Return type and description}",
+      "    \"\"\"",
+      "    ${7:# Plugin implementation}",
+      "    pass",
+      ""
+    ],
+    "description": "Create a new Photon plugin template"
+  },
+  "Python Main Guard": {
+    "prefix": "pymain",
+    "body": [
+      "if __name__ == '__main__':",
+      "    ${1:main()}"
+    ],
+    "description": "Python main guard"
+  },
+  "Python Docstring": {
+    "prefix": "pydoc",
+    "body": [
+      "\"\"\"",
+      "${1:Description}",
+      "",
+      "Args:",
+      "    ${2:param}: ${3:Description}",
+      "",
+      "Returns:",
+      "    ${4:Return type and description}",
+      "",
+      "Raises:",
+      "    ${5:Exception}: ${6:Description}",
+      "\"\"\""
+    ],
+    "description": "Python docstring template"
+  },
+  "Try Except Block": {
+    "prefix": "try",
+    "body": [
+      "try:",
+      "    ${1:# Code that might raise an exception}",
+      "    pass",
+      "except ${2:Exception} as ${3:e}:",
+      "    ${4:# Handle exception}",
+      "    pass"
+    ],
+    "description": "Try-except block"
+  },
+  "Regular Expression Pattern": {
+    "prefix": "regex",
+    "body": [
+      "import re",
+      "",
+      "${1:pattern} = re.compile(r'${2:pattern}')",
+      "${3:match} = ${1:pattern}.search(${4:text})",
+      "if ${3:match}:",
+      "    ${5:# Process match}",
+      "    pass"
+    ],
+    "description": "Regular expression pattern"
+  },
+  "HTTP Request": {
+    "prefix": "requests",
+    "body": [
+      "import requests",
+      "",
+      "try:",
+      "    response = requests.get('${1:url}', timeout=${2:10})",
+      "    response.raise_for_status()",
+      "    ${3:data} = response.${4|text,json(),content|}",
+      "except requests.RequestException as e:",
+      "    print(f'Request failed: {e}')"
+    ],
+    "description": "HTTP request with error handling"
+  }
+}

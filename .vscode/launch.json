@@ -1,0 +1,77 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Photon: Debug Current Site",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/photon.py",
+      "console": "integratedTerminal",
+      "args": [
+        "-u", "example.com",
+        "-l", "2",
+        "-t", "10"
+      ],
+      "justMyCode": false
+    },
+    {
+      "name": "Photon: Debug with Wayback",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/photon.py",
+      "console": "integratedTerminal",
+      "args": [
+        "-u", "example.com",
+        "--wayback"
+      ],
+      "justMyCode": false
+    },
+    {
+      "name": "Photon: Debug with DNS Dumper",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/photon.py",
+      "console": "integratedTerminal",
+      "args": [
+        "-u", "example.com",
+        "--dns"
+      ],
+      "justMyCode": false
+    },
+    {
+      "name": "Photon: Debug Help",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/photon.py",
+      "console": "integratedTerminal",
+      "args": [
+        "--help"
+      ],
+      "justMyCode": true
+    },
+    {
+      "name": "Python: Current File",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "Python: Module",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "${input:moduleName}",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ],
+  "inputs": [
+    {
+      "id": "moduleName",
+      "type": "promptString",
+      "description": "Module name to debug",
+      "default": "core.utils"
+    }
+  ]
+}
