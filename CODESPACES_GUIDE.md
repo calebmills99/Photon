@@ -27,7 +27,7 @@ The devcontainer includes the following pre-installed tools and features:
 - **ipython** - Enhanced interactive Python shell
 - **jupyter** - Notebook support for experimentation
 
-### 40+ VS Code Extensions
+### 33 VS Code Extensions
 
 The configuration includes 33 carefully selected extensions for:
 

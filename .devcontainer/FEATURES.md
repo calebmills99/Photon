@@ -178,7 +178,6 @@ Automatically forwarded ports:
 11. Run Docker container
 12. Install/update dependencies
 13. Clean Python cache
-14. Additional custom tasks
 
 ### Code Snippets (6)
 1. Photon plugin template
@@ -211,7 +210,7 @@ Automatically forwarded ports:
 - 33 VS Code extensions
 - 9+ Python packages
 - 6 Debug configurations
-- 14 VS Code tasks
+- 13 VS Code tasks
 - 6 Code snippets
 - 4 Forwarded ports
 - Multiple configuration files

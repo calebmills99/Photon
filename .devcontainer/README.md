@@ -7,7 +7,7 @@ This comprehensive devcontainer configuration provides a complete development en
 - 9+ Python development tools  
 - 5 Devcontainer features
 - 6 Debug configurations
-- 14 Pre-configured tasks
+- 13 Pre-configured tasks
 
 ## Features
 
