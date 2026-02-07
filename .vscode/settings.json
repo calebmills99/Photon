@@ -1,0 +1,122 @@
+{
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.typeCheckingMode": "basic",
+  "python.analysis.diagnosticMode": "workspace",
+  "python.testing.pytestArgs": [
+    "."
+  ],
+  "python.testing.cwd": "${workspaceFolder}",
+  "python.linting.flake8Args": [
+    "--max-line-length=120",
+    "--ignore=E203,W503"
+  ],
+  "python.linting.pylintArgs": [
+    "--max-line-length=120",
+    "--disable=C0111,C0103"
+  ],
+  "python.formatting.blackArgs": [
+    "--line-length=120"
+  ],
+  "files.associations": {
+    "*.py": "python",
+    "Dockerfile*": "dockerfile",
+    ".travis.yml": "yaml"
+  },
+  "search.exclude": {
+    "**/__pycache__": true,
+    "**/*.pyc": true,
+    "**/.pytest_cache": true,
+    "**/htmlcov": true,
+    "**/.coverage": true,
+    "**/node_modules": true
+  },
+  "todo-tree.general.tags": [
+    "TODO",
+    "FIXME",
+    "NOTE",
+    "BUG",
+    "HACK",
+    "XXX"
+  ],
+  "todo-tree.highlights.defaultHighlight": {
+    "icon": "alert",
+    "type": "text",
+    "foreground": "#000000",
+    "background": "#ffff00",
+    "opacity": 50,
+    "iconColour": "#ffff00"
+  },
+  "todo-tree.highlights.customHighlight": {
+    "TODO": {
+      "icon": "check",
+      "iconColour": "#00ff00"
+    },
+    "FIXME": {
+      "icon": "alert",
+      "iconColour": "#ff0000"
+    },
+    "BUG": {
+      "icon": "bug",
+      "iconColour": "#ff0000"
+    }
+  },
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "gitlens.codeLens.enabled": true,
+  "gitlens.hovers.currentLine.over": "line",
+  "coverage-gutters.coverageFileNames": [
+    "coverage.xml",
+    "coverage.json",
+    ".coverage"
+  ],
+  "rest-client.environmentVariables": {
+    "$shared": {
+      "baseUrl": "http://localhost:8000"
+    }
+  }
+}
