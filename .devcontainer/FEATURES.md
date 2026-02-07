@@ -164,7 +164,7 @@ Automatically forwarded ports:
 5. Debug current Python file
 6. Debug Python module
 
-### Tasks (14)
+### Tasks (13)
 1. Run Photon example
 2. Show Photon help
 3. Format code with Black
