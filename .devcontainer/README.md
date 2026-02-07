@@ -2,6 +2,13 @@
 
 This comprehensive devcontainer configuration provides a complete development environment for Photon, the incredibly fast OSINT web crawler.
 
+**Quick Stats:**
+- 33 VS Code extensions
+- 9+ Python development tools  
+- 5 Devcontainer features
+- 6 Debug configurations
+- 14 Pre-configured tasks
+
 ## Features
 
 ### 🐍 Python Development

@@ -55,7 +55,7 @@ Installed via `postCreateCommand`:
 - **ipython** - Enhanced Python REPL
 - **jupyter** - Notebook interface
 
-## VS Code Extensions (40+)
+## VS Code Extensions (33)
 
 ### Python Development (6)
 1. `ms-python.python` - Python language support
@@ -208,7 +208,7 @@ Automatically forwarded ports:
 
 **Summary:**
 - 5 Devcontainer features
-- 33+ VS Code extensions
+- 33 VS Code extensions
 - 9+ Python packages
 - 6 Debug configurations
 - 14 VS Code tasks

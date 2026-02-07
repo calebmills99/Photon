@@ -29,7 +29,7 @@ The devcontainer includes the following pre-installed tools and features:
 
 ### 40+ VS Code Extensions
 
-The configuration includes carefully selected extensions for:
+The configuration includes 33 carefully selected extensions for:
 
 #### Python Development
 - Python language support with IntelliSense
@@ -264,7 +264,7 @@ Access forwarded ports via the Ports panel in VS Code.
 
 This devcontainer configuration is comprehensive and includes:
 
-✅ **40+ carefully selected VS Code extensions**  
+✅ **33 carefully selected VS Code extensions**  
 ✅ **Complete Python development toolchain**  
 ✅ **Security and quality scanning tools**  
 ✅ **Git and GitHub integration**  

@@ -160,7 +160,7 @@
     {
       "label": "Clean Python Cache",
       "type": "shell",
-      "command": "find . -type d -name __pycache__ -exec rm -rf {} + 2>/dev/null || true; find . -type f -name '*.pyc' -delete",
+      "command": "find . -type f -name '*.pyc' -delete; find . -type d -name __pycache__ -prune -exec rm -rf {} + 2>/dev/null || true; find . -type d -name .pytest_cache -prune -exec rm -rf {} + 2>/dev/null || true",
       "problemMatcher": [],
       "presentation": {
         "reveal": "always",
